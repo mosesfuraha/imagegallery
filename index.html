@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/image.css" />
+    <title>Interactive Image Gallery</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">Best Fruits for the Balance Diet</h1>
+      <div class="gallery"></div>
+    </div>
+    <div class="preview-box" style="display: none">
+      <div class="details">
+        <span class="title">
+          Image <span class="current-img">1</span> of
+          <span class="total-img">8</span>
+        </span>
+        <span class="icon fas fa-times"></span>
+        <div class="img-box">
+          <div class="slide prev">
+            <i class="fas fa-angle-left"></i>
+          </div>
+          <div class="slide next">
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <img src="" alt="" id="lightbox-img" />
+          <div class="lightbox-caption"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/imageGallery.js"></script>
+  </body>
+</html>
